@@ -480,7 +480,7 @@ function mousePressed() {
     lastTouchTime = now;
     handle_live()
   } else if (currentState === "win")
-{
+{   win_music.play();
   if (
       mouseX > restartx &&
       mouseX < restartx + restartw &&
